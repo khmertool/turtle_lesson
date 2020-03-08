@@ -7,4 +7,5 @@ Created on Sat Mar  7 15:51:43 2020
 
 from mydraw import DrawStar, DrawSquare, DrawSun
 
+# using function from mydraw.py file
 DrawSun()

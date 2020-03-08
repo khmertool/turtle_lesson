@@ -7,6 +7,7 @@ Created on Sat Feb 29 14:37:32 2020
 
 import turtle
 
+# draw star shape
 def DrawStar():
     turtle.pensize(5)
     turtle.color('red', 'yellow')
@@ -22,7 +23,8 @@ def DrawStar():
     
     turtle.hideturtle()
     turtle.done()
- 
+
+# draw sun rising shape
 def DrawSun():
     turtle.pensize(2)
     turtle.color('red', 'yellow')
@@ -39,6 +41,7 @@ def DrawSun():
     turtle.hideturtle()
     turtle.done()
 
+# draw square shape
 def DrawSquare():
     turtle.pensize(5)
     turtle.color('red', 'yellow')
