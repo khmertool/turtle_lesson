@@ -1,11 +1,15 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Mar  7 15:51:43 2020
+# practice to use function in mydraw.py file
 
-@author: danhhong
-"""
+from mydraw import DrawStar, DrawSun, DrawSquare
 
-from mydraw import DrawStar, DrawSquare, DrawSun
+# type command to tell machine the the shaps
+command = input("Please, write:\nstar, sun or square? ")
 
-# using function from mydraw.py file
-DrawSun()
+if command == "star":
+    DrawStar()
+elif command == "sun":
+    DrawSun()
+elif command == "square":
+    DrawSquare()
+else:
+    print("Do nothing")
