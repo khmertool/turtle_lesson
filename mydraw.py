@@ -55,7 +55,7 @@ def DrawSquare():
     turtle.hideturtle()
     turtle.done()
     
-def Pandas():
+def DrawPandas():
     
     painter = turtle.Turtle()
     

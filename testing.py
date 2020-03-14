@@ -1,6 +1,6 @@
 # practice to use function in mydraw.py file
 
-from mydraw import DrawStar, DrawSun, Pandas
+from mydraw import DrawStar, DrawSun, DrawPandas
 
 # type command to tell machine the the shaps
 command = input("Please, write:\nstar, sun or pandas? ")
@@ -10,6 +10,6 @@ if command == "star":
 elif command == "sun":
     DrawSun()
 elif command == "pandas":
-    Pandas()
+    DrawPandas()
 else:
     print("Do nothing")
